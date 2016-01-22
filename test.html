@@ -1,0 +1,35 @@
+
+<div class="container">
+  <div class="box">
+    <div class="loadingInput">
+      <label for="modal"><input type="checkbox" id="modal" checked />modal</label>
+      <label for="bg"><input type="checkbox" id="bg" checked />exist bg</label>
+    </div>
+    <div class="loadingInput">
+      <label for="screenMode">screen Mode
+        <select id="screenMode">
+          <option value="full">full</option>
+          <option value="element" selected >element</option>
+        </select>
+      </label>
+    </div><div class="loadingInput">
+      <label for="textPosition">text position
+        <select id="textPosition">
+          <option value="up">up</option>
+          <option value="down">down</option>
+          <option value="left">left</option>
+          <option value="right" selected >right</option>
+        </select>
+      </label>
+    </div>
+    <div class="loadingInput">
+      <div class="inputLabel">Loading message :</div>
+      <input type="text" class="inputTxt" placeholder="input loading message : default) now loading..." id="loadingMsg" />
+    </div>
+    <div class="loadingInput">  
+      <div class="inputLabel">Loading img addr :</div>
+      <input type="text" class="inputTxt" placeholder="input img url : ex) http://go.wdu.ac.kr/images/common/ajaxLoading.gif" id="loadingImg" />
+    </div>
+    <span class="btn" onclick="startLoading()">Popup loading box!</span>
+  </div>
+</div>
